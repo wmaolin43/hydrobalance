@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hydrobalance"
+version = "0.1.0"
+description = "USGS-driven reservoir level forecasting + multi-objective operation optimization (MCM/ICM style)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Maolin Wang"}]
+
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "requests>=2.31",
+  "matplotlib>=3.7",
+  "scikit-learn>=1.3",
+  "scipy>=1.10",
+  "statsmodels>=0.14",
+  "torch>=2.0",
+  "lightgbm>=4.0",
+  "xgboost>=2.0"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "ruff>=0.3"]
