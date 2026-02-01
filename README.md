@@ -200,7 +200,7 @@ If you reuse the ideas, please cite **USGS** as the data source and cite the rel
 
 ---
 
-## Next extensions (maybe add next step)
+## Next extensions (Next steps)
 
 - Add exogenous signals: precipitation, snowpack, temperature, evaporation
 - Use probabilistic forecasts (quantile regression / conformal prediction)
